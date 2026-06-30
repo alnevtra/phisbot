@@ -1,0 +1,99 @@
+===[17-Aug-2024 20:37:21]===
+
+[!] Device Information :
+
+[+] OS : Win64
+[+] Platform : Win32
+[+] CPU Cores : 16
+[+] RAM : 8
+[+] Vendor : Google Inc. (Intel)
+[+] GPU : ANGLE (Intel, Intel(R) UHD Graphics (0x00009A60) Direct3D11 vs_5_0 ps_5_0, D3D11)
+[+] Resolution : 1536x864
+[+] Browser : Chrome/127.0.0.0
+[+] IP : 203.78.124.146
+
+[!] IP Information :
+
+[+] Continent : Asia
+[+] Country : Indonesia
+[+] Region : Special Capital Region of Jakarta
+[+] City : West Jakarta City
+[+] Org : Pt. Xl Axiata Tbk
+[+] ISP : Pt Xl Axiata
+
+[!] Location Information :
+
+[+] Latitude : -6.9173248 deg
+[+] Longitude : 107.610112 deg
+[+] Accuracy : 66643.0463246703 m
+[+] Altitude : Not Available
+[+] Direction : Not Available
+[+] Speed : Not Available
+[+] Map : https://www.google.com/maps/place/-6.9173248+107.610112 
+
+==============
+
+===[27-Jun-2026 13:37:40]===
+
+[!] Device Information :
+
+[+] OS : Linux x86_64
+[+] Platform : Linux x86_64
+[+] CPU Cores : 16
+[+] RAM : 32
+[+] Vendor : Google Inc. (Intel)
+[+] GPU : ANGLE (Intel, Mesa Intel(R) UHD Graphics (TGL GT1), OpenGL ES 3.2)
+[+] Resolution : 2048x1152
+[+] Browser : Chrome/147.0.0.0
+[+] IP : 182.10.131.84
+
+[!] IP Information :
+
+[+] Continent : Asia
+[+] Country : Indonesia
+[+] Region : Jawa Barat
+[+] City : Bandung
+[+] Org : Pt. Telekomunikasi Selular telkomsel Indonesia
+[+] ISP : PT. Telekomunikasi Selular
+
+[!] Location Information :
+
+[+] Latitude : -6.9573236 deg
+[+] Longitude : 107.657059 deg
+[+] Accuracy : 1761.960755272094 m
+[+] Altitude : Not Available
+[+] Direction : Not Available
+[+] Speed : Not Available
+[+] Map : https://www.google.com/maps/place/-6.9573236+107.657059 
+
+==============
+
+===[27-Jun-2026 13:37:40]===
+
+[!] Device Information :
+
+[+] OS : Linux x86_64
+[+] Platform : Linux x86_64
+[+] CPU Cores : 16
+[+] RAM : 32
+[+] Vendor : Google Inc. (Intel)
+[+] GPU : ANGLE (Intel, Mesa Intel(R) UHD Graphics (TGL GT1), OpenGL ES 3.2)
+[+] Resolution : 2048x1152
+[+] Browser : Chrome/147.0.0.0
+[+] IP : 182.10.131.84
+
+[!] IP Information :
+
+[+] Continent : Asia
+[+] Country : Indonesia
+[+] Region : Jawa Barat
+[+] City : Bandung
+[+] Org : Pt. Telekomunikasi Selular telkomsel Indonesia
+[+] ISP : PT. Telekomunikasi Selular
+
+[!] Location Information :
+
+[+] Error     : The request to get user location timed out 
+
+==============
+

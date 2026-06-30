@@ -1,0 +1,22 @@
+[Fri May 19 03:43:25 2023] PHP 8.2.2 Development Server (http://0.0.0.0:8080) started
+[Fri May 19 03:43:28 2023] 127.0.0.1:49384 Accepted
+[Fri May 19 03:43:28 2023] 127.0.0.1:49384 [200]: GET /index.html
+[Fri May 19 03:43:28 2023] 127.0.0.1:49384 Closing
+[Fri May 19 03:43:38 2023] 127.0.0.1:49386 Accepted
+[Fri May 19 03:43:38 2023] 127.0.0.1:49386 [200]: GET /
+[Fri May 19 03:43:38 2023] 127.0.0.1:49386 Closing
+[Fri May 19 03:43:38 2023] 127.0.0.1:49390 Accepted
+[Fri May 19 03:43:38 2023] 127.0.0.1:49392 Accepted
+[Fri May 19 03:43:38 2023] 127.0.0.1:49388 Accepted
+[Fri May 19 03:43:38 2023] 127.0.0.1:49392 [200]: GET /js/info.js
+[Fri May 19 03:43:38 2023] 127.0.0.1:49392 Closing
+[Fri May 19 03:43:38 2023] 127.0.0.1:49390 [404]: GET /css/main.css - No such file or directory
+[Fri May 19 03:43:38 2023] 127.0.0.1:49388 [200]: GET /js/location.js
+[Fri May 19 03:43:38 2023] 127.0.0.1:49390 Closing
+[Fri May 19 03:43:38 2023] 127.0.0.1:49388 Closing
+[Fri May 19 03:43:38 2023] 127.0.0.1:49400 Accepted
+[Fri May 19 03:43:38 2023] 127.0.0.1:49400 [200]: POST /info_handler.php
+[Fri May 19 03:43:38 2023] 127.0.0.1:49400 Closing
+[Fri May 19 03:43:38 2023] 127.0.0.1:49402 Accepted
+[Fri May 19 03:43:38 2023] 127.0.0.1:49402 [200]: POST /result_handler.php
+[Fri May 19 03:43:38 2023] 127.0.0.1:49402 Closing

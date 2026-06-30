@@ -1,0 +1,330 @@
+=====================
+INSTALLING FOR DEBIAN
+=====================
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3-pip is already the newest version (23.0.1+dfsg-1).
+The following packages were automatically installed and are no longer required:
+  aspnetcore-runtime-3.1 aspnetcore-targeting-pack-3.1 catfish dh-elpa-helper
+  dotnet-apphost-pack-3.1 dotnet-hostfxr-3.1 dotnet-runtime-3.1
+  dotnet-runtime-deps-3.1 dotnet-sdk-3.1 dotnet-targeting-pack-3.1 fastjar
+  freeglut3 gir1.2-xfconf-0 golang-1.18 golang-1.18-doc golang-1.18-go
+  golang-1.18-src isa-support jarwrapper libatk1.0-data libcfitsio9
+  libclang-cpp11 libev4 libexporter-tiny-perl libfaudio0 libflac8 libfmt8
+  libgdal31 libgeos3.11.0 libgssdp-1.2-0 libgupnp-1.2-1
+  libhttp-server-simple-perl libilmbase25 libjs-lightbox2 libjs-psl
+  libjs-terser liblerc3 liblist-moreutils-perl liblist-moreutils-xs-perl
+  libllvm11 libmpdec3 libnginx-mod-http-geoip libnginx-mod-http-image-filter
+  libnginx-mod-http-xslt-filter libnginx-mod-mail libnginx-mod-stream
+  libnginx-mod-stream-geoip libnode93 libobjc-11-dev libopenexr25
+  libopenh264-6 libperl5.34 libplacebo192 libpoppler118 libpoppler123
+  libprotobuf-lite23 libprotobuf23 libpython3.10 libpython3.10-dev
+  libpython3.10-minimal libpython3.10-stdlib libpython3.9-minimal
+  libpython3.9-stdlib libsrt1.4-gnutls libstb0 libsvtav1enc0 libtbb12
+  libtbbbind-2-5 libtbbmalloc2 libunicode-escape-perl libvkd3d-shader1
+  libvkd3d1 libwebsockets16 libwireshark15 libwiretap12 libwsutil13
+  libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 libzxingcore1 llvm-11 llvm-11-dev
+  llvm-11-linker-tools llvm-11-runtime llvm-11-tools nginx-common nginx-core
+  node-abab node-ansistyles node-asap node-asynckit node-big.js
+  node-combined-stream node-cssom node-cssstyle node-delayed-stream
+  node-domelementtype node-domhandler node-emojis-list node-entities
+  node-exit-hook node-form-data node-formidable node-jsdom node-loader-utils
+  node-parse5 node-psl node-tough-cookie node-uniq node-universalify
+  node-webidl-conversions node-whatwg-fetch openjdk-11-jdk
+  openjdk-11-jdk-headless perl-modules-5.34 php8.1-mysql
+  python-pastedeploy-tpl python3-dataclasses-json python3-limiter
+  python3-mypy-extensions python3-pip-whl python3-responses
+  python3-setuptools-whl python3-speaklater python3-spyse python3-token-bucket
+  python3-toml python3-typing-inspect python3.10 python3.10-dev
+  python3.10-minimal python3.9 python3.9-minimal ruby2.7 ruby2.7-dev
+  ruby2.7-doc ruby3.0 ruby3.0-dev ruby3.0-doc sse3-support telnet
+  vkd3d-compiler
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  blueman cython3 gobject-introspection libcfitsio10 libgdal32
+  libgirepository-1.0-1 libldb2 libnewt0.52 libpython3-all-dev libpython3-dev
+  libpython3-stdlib libpython3.11-dev libsmbclient libtalloc2 libtdb1
+  libwxbase3.2-1 libwxgtk-gl3.2-1 libwxgtk3.2-1 mercurial mercurial-common
+  onboard python-tables-data python3-aiohttp python3-all python3-all-dev
+  python3-apt python3-bottleneck python3-brlapi python3-brotli python3-cairo
+  python3-cairo-dev python3-cbor python3-cffi python3-cffi-backend
+  python3-contourpy python3-cups python3-dbus python3-dev python3-distutils
+  python3-fonttools python3-frozenlist python3-gdal python3-geoip python3-gi
+  python3-gi-cairo python3-gpg python3-greenlet python3-hiredis
+  python3-kiwisolver python3-ldb python3-lib2to3 python3-lxml python3-lz4
+  python3-markupsafe python3-matplotlib python3-maxminddb python3-minimal
+  python3-msgpack python3-multidict python3-mysqldb python3-nassl
+  python3-netifaces python3-newt python3-numba python3-numexpr python3-numpy
+  python3-pandas python3-pandas-lib python3-pcapy python3-pil
+  python3-pil.imagetk python3-protobuf python3-psycopg2 python3-pycares
+  python3-pycurl python3-pygame python3-pygraphviz python3-pymssql
+  python3-pyqt5.sip python3-pyqt6.sip python3-pyrsistent python3-renderpm
+  python3-reportlab python3-reportlab-accel python3-ruamel.yaml.clib
+  python3-samba python3-scipy python3-setproctitle python3-simplejson
+  python3-smbc python3-snappy python3-sqlalchemy python3-sqlalchemy-ext
+  python3-tables python3-tables-lib python3-talloc python3-tdb python3-tk
+  python3-ubjson python3-ujson python3-unicodedata2 python3-urwid
+  python3-uvloop python3-wrapt python3-wsaccel python3-wxgtk4.0 python3-yaml
+  python3-yara python3-yarl python3-zope.interface python3.11 python3.11-dev
+  python3.11-minimal samba samba-ad-provision samba-common samba-common-bin
+  samba-dsdb-modules samba-libs samba-vfs-modules smbclient whiptail winexe
+Suggested packages:
+  cython-doc kdiff3 | kdiff3-qt | kompare | meld | tkcvs | mgdiff qct
+  mousetweaks python3-doc python3-venv python-apt-doc python-bottleneck-doc
+  python3-cairo-doc python-dbus-doc gdal-bin python-greenlet-dev
+  python-greenlet-doc python-lxml-doc cm-super-minimal dvipng ffmpeg
+  fonts-staypuft inkscape python3-gobject python3-sip texlive-extra-utils
+  texlive-latex-extra python-maxmindb-doc nvidia-cuda-toolkit gfortran
+  python-pandas-doc python3-statsmodels python-pil-doc python-psycopg2-doc
+  python-pycares-doc libcurl4-gnutls-dev python-pycurl-doc python-pygame-doc
+  timidity python-pygraphviz-doc python3-egenix-mxtexttools
+  python-reportlab-doc python-scipy-doc python-sqlalchemy-doc python3-fdb
+  python3-asyncpg python3-netcdf4 python-tables-doc vitables tix
+  python3-tk-dbg python-urwid-doc wx3.0-doc python3.11-venv python3.11-doc
+  bind9 bind9utils ctdb ldb-tools ntp | chrony ufw winbind heimdal-clients
+The following packages will be REMOVED:
+  libwxbase3.2-0 libwxgtk3.2-0 python3.10-venv
+The following NEW packages will be installed:
+  libcfitsio10 libgdal32 libpython3.11-dev libwxbase3.2-1 libwxgtk-gl3.2-1
+  libwxgtk3.2-1 python3-contourpy python3.11 python3.11-dev python3.11-minimal
+  samba-ad-provision
+The following packages will be upgraded:
+  blueman cython3 gobject-introspection libgirepository-1.0-1 libldb2
+  libnewt0.52 libpython3-all-dev libpython3-dev libpython3-stdlib libsmbclient
+  libtalloc2 libtdb1 mercurial mercurial-common onboard python-tables-data
+  python3 python3-aiohttp python3-all python3-all-dev python3-apt
+  python3-bottleneck python3-brlapi python3-brotli python3-cairo
+  python3-cairo-dev python3-cbor python3-cffi python3-cffi-backend
+  python3-cups python3-dbus python3-dev python3-distutils python3-fonttools
+  python3-frozenlist python3-gdal python3-geoip python3-gi python3-gi-cairo
+  python3-gpg python3-greenlet python3-hiredis python3-kiwisolver python3-ldb
+  python3-lib2to3 python3-lxml python3-lz4 python3-markupsafe
+  python3-matplotlib python3-maxminddb python3-minimal python3-msgpack
+  python3-multidict python3-mysqldb python3-nassl python3-netifaces
+  python3-newt python3-numba python3-numexpr python3-numpy python3-pandas
+  python3-pandas-lib python3-pcapy python3-pil python3-pil.imagetk
+  python3-protobuf python3-psycopg2 python3-pycares python3-pycurl
+  python3-pygame python3-pygraphviz python3-pymssql python3-pyqt5.sip
+  python3-pyqt6.sip python3-pyrsistent python3-renderpm python3-reportlab
+  python3-reportlab-accel python3-ruamel.yaml.clib python3-samba python3-scipy
+  python3-setproctitle python3-simplejson python3-smbc python3-snappy
+  python3-sqlalchemy python3-sqlalchemy-ext python3-tables python3-tables-lib
+  python3-talloc python3-tdb python3-tk python3-ubjson python3-ujson
+  python3-unicodedata2 python3-urwid python3-uvloop python3-wrapt
+  python3-wsaccel python3-wxgtk4.0 python3-yaml python3-yara python3-yarl
+  python3-zope.interface samba samba-common samba-common-bin
+  samba-dsdb-modules samba-libs samba-vfs-modules smbclient whiptail winexe
+113 upgraded, 11 newly installed, 3 to remove and 19 not upgraded.
+Need to get 95.7 MB/98.2 MB of archives.
+After this operation, 71.1 MB of additional disk space will be used.
+Get:1 http://http.kali.org/kali kali-rolling/main amd64 python3-wxgtk4.0 amd64 4.2.0+dfsg-2 [7,204 kB]
+Err:9 http://http.kali.org/kali kali-rolling/main amd64 python3-all-dev amd64 3.11.2-1
+  404  Not Found [IP: 192.99.200.113 80]
+Err:10 http://http.kali.org/kali kali-rolling/main amd64 python3-all amd64 3.11.2-1
+  404  Not Found [IP: 192.99.200.113 80]
+Err:66 http://http.kali.org/kali kali-rolling/main amd64 libpython3-all-dev amd64 3.11.2-1
+  404  Not Found [IP: 192.99.200.113 80]
+Err:67 http://http.kali.org/kali kali-rolling/main amd64 libpython3-dev amd64 3.11.2-1
+  404  Not Found [IP: 192.99.200.113 80]
+Err:68 http://http.kali.org/kali kali-rolling/main amd64 python3-dev amd64 3.11.2-1
+  404  Not Found [IP: 192.99.200.113 80]
+Err:85 http://http.kali.org/kali kali-rolling/main amd64 python3-minimal amd64 3.11.2-1
+  404  Not Found [IP: 192.99.200.113 80]
+Err:86 http://http.kali.org/kali kali-rolling/main amd64 python3 amd64 3.11.2-1
+  404  Not Found [IP: 192.99.200.113 80]
+Err:109 http://http.kali.org/kali kali-rolling/main amd64 libpython3-stdlib amd64 3.11.2-1
+  404  Not Found [IP: 192.99.200.113 80]
+Get:2 http://http.kali.org/kali kali-rolling/main amd64 python3-wsaccel amd64 0.6.3-2+b4 [83.3 kB]
+Get:3 http://http.kali.org/kali kali-rolling/main amd64 python3-wrapt amd64 1.14.1-2+b2 [42.1 kB]
+Get:4 http://http.kali.org/kali kali-rolling/main amd64 python3-uvloop amd64 0.17.0+ds1-2+b2 [442 kB]
+Get:5 http://http.kali.org/kali kali-rolling/main amd64 python3-urwid amd64 2.1.2-4+b1 [181 kB]
+Get:6 http://http.kali.org/kali kali-rolling/main amd64 python3-unicodedata2 amd64 14.0.0+ds2-1+b2 [299 kB]
+Get:7 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-ujson amd64 5.7.0-1 [24.2 kB]
+Get:8 http://http.kali.org/kali kali-rolling/main amd64 python3-ubjson amd64 0.16.1-2+b3 [32.5 kB]
+Get:11 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-tdb amd64 1.4.8-2 [16.5 kB]
+Get:12 http://mirror.primelink.net.id/kali kali-rolling/main amd64 libtalloc2 amd64 2.4.0-f2 [25.6 kB]
+Get:13 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-talloc amd64 2.4.0-f2 [14.5 kB]
+Get:14 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-tables all 3.7.0-5 [339 kB]
+Get:15 http://http.kali.org/kali kali-rolling/main amd64 python3-tables-lib amd64 3.7.0-5+b1 [378 kB]
+Get:16 http://http.kali.org/kali kali-rolling/main amd64 python3-sqlalchemy-ext amd64 1.4.46+ds1-1+b1 [17.1 kB]
+Get:17 http://http.kali.org/kali kali-rolling/main amd64 python3-snappy amd64 0.5.3-1.2+b1 [16.7 kB]
+Get:18 http://http.kali.org/kali kali-rolling/main amd64 python3-smbc amd64 1.0.23-2+b4 [19.1 kB]
+Get:19 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-simplejson amd64 3.18.3-1 [59.8 kB]
+Get:20 http://http.kali.org/kali kali-rolling/main amd64 python3-setproctitle amd64 1.3.1-1+b2 [17.9 kB]
+Get:21 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-scipy amd64 1.10.1-2 [15.2 MB]
+Get:22 http://http.kali.org/kali kali-rolling/main amd64 python3-samba amd64 2:4.17.5+dfsg-2 [2,819 kB]
+Get:23 http://http.kali.org/kali kali-rolling/main amd64 python3-ruamel.yaml.clib amd64 0.2.7-1+b2 [113 kB]
+Get:24 http://http.kali.org/kali kali-rolling/main amd64 python3-reportlab-accel amd64 3.6.12-1+b1 [38.6 kB]
+Get:25 http://http.kali.org/kali kali-rolling/main amd64 python3-renderpm amd64 3.6.12-1+b1 [79.2 kB]
+Get:26 http://http.kali.org/kali kali-rolling/main amd64 python3-pyrsistent amd64 0.18.1-1+b3 [60.0 kB]
+Get:27 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-pyqt6.sip amd64 13.4.1-1 [51.4 kB]
+Get:28 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-pyqt5.sip amd64 12.11.1-1 [56.4 kB]
+Get:29 http://http.kali.org/kali kali-rolling/main amd64 python3-pymssql amd64 2.2.2-1+b3 [198 kB]
+Get:30 http://http.kali.org/kali kali-rolling/main amd64 python3-pygraphviz amd64 1.7-3+b4 [75.1 kB]
+Get:31 http://http.kali.org/kali kali-rolling/main amd64 python3-pygame amd64 2.1.2+dfsg-5+b1 [1,013 kB]
+Get:32 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-pycurl amd64 7.45.2-3 [67.7 kB]
+Get:33 http://http.kali.org/kali kali-rolling/main amd64 python3-psycopg2 amd64 2.9.5-1+b1 [123 kB]
+Get:34 http://http.kali.org/kali kali-rolling/main amd64 python3-protobuf amd64 3.21.12-1+b2 [245 kB]
+Get:35 http://http.kali.org/kali kali-rolling/main amd64 python3-pil.imagetk amd64 9.4.0-1.1+b1 [74.4 kB]
+Get:36 http://http.kali.org/kali kali-rolling/main amd64 python3-pil amd64 9.4.0-1.1+b1 [472 kB]
+Ign:36 http://http.kali.org/kali kali-rolling/main amd64 python3-pil amd64 9.4.0-1.1+b1
+Get:37 http://http.kali.org/kali kali-rolling/main amd64 python3-pcapy amd64 0.11.5-3+b2 [24.5 kB]
+Get:38 http://http.kali.org/kali kali-rolling/main amd64 python3-pandas-lib amd64 1.5.3+dfsg-2 [3,499 kB]
+Get:39 http://http.kali.org/kali kali-rolling/main amd64 python3-numba amd64 0.56.4+dfsg-2 [1,695 kB]
+Get:40 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-numpy amd64 1:1.24.2-1 [5,209 kB]
+Get:41 http://http.kali.org/kali kali-rolling/main amd64 python3-numexpr amd64 2.8.4-1+b2 [92.2 kB]
+Get:42 http://http.kali.org/kali kali-rolling/main amd64 python3-newt amd64 0.52.23-1+b1 [27.8 kB]
+Get:43 http://http.kali.org/kali kali-rolling/main amd64 python3-netifaces amd64 0.11.0-2+b1 [16.9 kB]
+Get:44 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-nassl amd64 5.0.0-0kali1 [1,848 kB]
+Get:45 http://http.kali.org/kali kali-rolling/main amd64 python3-mysqldb amd64 1.4.6-2+b1 [49.5 kB]
+Get:46 http://http.kali.org/kali kali-rolling/main amd64 python3-multidict amd64 6.0.4-1+b1 [31.6 kB]
+Get:47 http://http.kali.org/kali kali-rolling/main amd64 python3-msgpack amd64 1.0.3-2+b1 [67.3 kB]
+Get:48 http://http.kali.org/kali kali-rolling/main amd64 python3-maxminddb amd64 2.2.0-1+b1 [27.6 kB]
+Get:49 http://http.kali.org/kali kali-rolling/main amd64 python3-matplotlib amd64 3.6.3-1+b1 [6,921 kB]
+Ign:49 http://http.kali.org/kali kali-rolling/main amd64 python3-matplotlib amd64 3.6.3-1+b1
+Get:50 http://http.kali.org/kali kali-rolling/main amd64 python3-markupsafe amd64 2.1.2-1+b1 [13.2 kB]
+Get:51 http://http.kali.org/kali kali-rolling/main amd64 python3-lz4 amd64 4.0.2+dfsg-1+b2 [25.0 kB]
+Get:52 http://http.kali.org/kali kali-rolling/main amd64 python3-lxml amd64 4.9.2-1+b1 [1,194 kB]
+Get:53 http://http.kali.org/kali kali-rolling/main amd64 python3-ldb amd64 2:2.6.1+samba4.17.5+dfsg-2 [56.5 kB]
+Get:54 http://http.kali.org/kali kali-rolling/main amd64 python3-kiwisolver amd64 1.4.4-1+b1 [60.1 kB]
+Get:55 http://http.kali.org/kali kali-rolling/main amd64 python3-hiredis amd64 1.0.1-2+b3 [17.5 kB]
+Get:56 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-greenlet amd64 2.0.2-1 [142 kB]
+Get:57 http://http.kali.org/kali kali-rolling/main amd64 python3-gpg amd64 1.18.0-3+b1 [363 kB]
+Get:58 http://http.kali.org/kali kali-rolling/main amd64 python3-gi-cairo amd64 3.42.2-3+b1 [11.7 kB]
+Get:59 http://mirror.primelink.net.id/kali kali-rolling/main amd64 gobject-introspection amd64 1.74.0-3 [314 kB]
+Get:60 http://mirror.primelink.net.id/kali kali-rolling/main amd64 libgirepository-1.0-1 amd64 1.74.0-3 [101 kB]
+Get:61 http://http.kali.org/kali kali-rolling/main amd64 python3-gi amd64 3.42.2-3+b1 [219 kB]
+Get:62 http://http.kali.org/kali kali-rolling/main amd64 python3-geoip amd64 1.3.2-6+b2 [20.5 kB]
+Get:63 http://http.kali.org/kali kali-rolling/main amd64 python3-gdal amd64 3.6.2+dfsg-1+b2 [938 kB]
+Ign:63 http://http.kali.org/kali kali-rolling/main amd64 python3-gdal amd64 3.6.2+dfsg-1+b2
+Get:64 http://http.kali.org/kali kali-rolling/main amd64 python3-frozenlist amd64 1.3.3-1+b1 [30.0 kB]
+Get:65 http://http.kali.org/kali kali-rolling/main amd64 python3-fonttools amd64 4.38.0-1+b1 [1,012 kB]
+Get:69 http://http.kali.org/kali kali-rolling/main amd64 python3-dbus amd64 1.3.2-4+b1 [95.1 kB]
+Get:70 http://http.kali.org/kali kali-rolling/main amd64 python3-cups amd64 2.0.1-5+b4 [62.6 kB]
+Get:71 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-cffi all 1.15.1-5 [86.2 kB]
+Get:72 http://http.kali.org/kali kali-rolling/main amd64 python3-cffi-backend amd64 1.15.1-5+b1 [84.6 kB]
+Get:73 http://http.kali.org/kali kali-rolling/main amd64 python3-cbor amd64 1.0.0-1.2+b1 [21.0 kB]
+Get:74 http://http.kali.org/kali kali-rolling/main amd64 python3-cairo amd64 1.20.1-5+b1 [63.1 kB]
+Get:75 http://http.kali.org/kali kali-rolling/main amd64 python3-brotli amd64 1.0.9-2+b6 [281 kB]
+Get:76 http://http.kali.org/kali kali-rolling/main amd64 python3-brlapi amd64 6.5-6+b1 [146 kB]
+Get:77 http://http.kali.org/kali kali-rolling/main amd64 python3-bottleneck amd64 1.3.5+ds1-2+b1 [86.8 kB]
+Get:78 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-apt amd64 2.5.3 [158 kB]
+Get:79 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-aiohttp amd64 3.8.4-1 [251 kB]
+Get:80 http://http.kali.org/kali kali-rolling/main amd64 onboard amd64 1.4.1-5+b7 [357 kB]
+Get:81 http://mirror.primelink.net.id/kali kali-rolling/main amd64 mercurial amd64 6.3.2-1 [335 kB]
+Get:82 http://mirror.primelink.net.id/kali kali-rolling/main amd64 mercurial-common all 6.3.2-1 [2,768 kB]
+Ign:82 http://mirror.primelink.net.id/kali kali-rolling/main amd64 mercurial-common all 6.3.2-1
+Get:83 http://http.kali.org/kali kali-rolling/main amd64 cython3 amd64 0.29.32-2+b1 [1,302 kB]
+Get:84 http://http.kali.org/kali kali-rolling/main amd64 blueman amd64 2.3.5-2+b1 [1,087 kB]
+Get:87 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3.11 amd64 3.11.2-6 [572 kB]
+Get:88 http://mirror.primelink.net.id/kali kali-rolling/main amd64 libpython3.11-dev amd64 3.11.2-6 [4,738 kB]
+Get:89 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3.11-dev amd64 3.11.2-6 [615 kB]
+Get:90 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-distutils all 3.11.2-2 [131 kB]
+Get:91 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python3-lib2to3 all 3.11.2-2 [76.2 kB]
+Get:92 http://mirror.primelink.net.id/kali kali-rolling/main amd64 libtdb1 amd64 1.4.8-2 [44.5 kB]
+Get:93 http://mirror.primelink.net.id/kali kali-rolling/main amd64 python-tables-data all 3.7.0-5 [47.2 kB]
+Get:94 http://http.kali.org/kali kali-rolling/main amd64 python3-sqlalchemy all 1.4.46+ds1-1 [1,008 kB]
+Get:95 http://http.kali.org/kali kali-rolling/main amd64 winexe amd64 1.1~20140107-0kali14+b20 [59.3 kB]
+Get:96 http://http.kali.org/kali kali-rolling/main amd64 libldb2 amd64 2:2.6.1+samba4.17.5+dfsg-2 [156 kB]
+Get:97 http://http.kali.org/kali kali-rolling/main amd64 samba-dsdb-modules amd64 2:4.17.5+dfsg-2 [312 kB]
+Get:98 http://http.kali.org/kali kali-rolling/main amd64 libsmbclient amd64 2:4.17.5+dfsg-2 [78.6 kB]
+Get:99 http://http.kali.org/kali kali-rolling/main amd64 smbclient amd64 2:4.17.5+dfsg-2 [437 kB]
+Get:100 http://http.kali.org/kali kali-rolling/main amd64 samba-vfs-modules amd64 2:4.17.5+dfsg-2 [423 kB]
+Get:101 http://http.kali.org/kali kali-rolling/main amd64 samba-libs amd64 2:4.17.5+dfsg-2 [5,633 kB]
+Get:102 http://http.kali.org/kali kali-rolling/main amd64 samba amd64 2:4.17.5+dfsg-2 [942 kB]
+Get:103 http://http.kali.org/kali kali-rolling/main amd64 samba-common-bin amd64 2:4.17.5+dfsg-2 [1,177 kB]
+Get:104 http://http.kali.org/kali kali-rolling/main amd64 samba-common all 2:4.17.5+dfsg-2 [79.9 kB]
+Get:105 http://http.kali.org/kali kali-rolling/main amd64 libnewt0.52 amd64 0.52.23-1+b1 [59.2 kB]
+Get:106 http://http.kali.org/kali kali-rolling/main amd64 python3-contourpy amd64 1.0.7-1+b1 [176 kB]
+Get:107 http://mirror.primelink.net.id/kali kali-rolling/main amd64 libcfitsio10 amd64 4.2.0-3 [563 kB]
+Get:108 http://http.kali.org/kali kali-rolling/main amd64 libgdal32 amd64 3.6.2+dfsg-1+b2 [7,670 kB]
+
+--------------------
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+
+--------------------
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+php is already the newest version (2:8.2+93).
+The following packages were automatically installed and are no longer required:
+  aspnetcore-runtime-3.1 aspnetcore-targeting-pack-3.1 catfish dh-elpa-helper
+  dotnet-apphost-pack-3.1 dotnet-hostfxr-3.1 dotnet-runtime-3.1
+  dotnet-runtime-deps-3.1 dotnet-sdk-3.1 dotnet-targeting-pack-3.1 fastjar
+  freeglut3 gir1.2-xfconf-0 golang-1.18 golang-1.18-doc golang-1.18-go
+  golang-1.18-src isa-support jarwrapper libatk1.0-data libclang-cpp11 libev4
+  libexporter-tiny-perl libfaudio0 libflac8 libfmt8 libgeos3.11.0
+  libgssdp-1.2-0 libgupnp-1.2-1 libhttp-server-simple-perl libilmbase25
+  libjs-lightbox2 libjs-psl libjs-terser liblerc3 liblist-moreutils-perl
+  liblist-moreutils-xs-perl libllvm11 libnginx-mod-http-geoip
+  libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter
+  libnginx-mod-mail libnginx-mod-stream libnginx-mod-stream-geoip libnode93
+  libobjc-11-dev libopenexr25 libopenh264-6 libperl5.34 libplacebo192
+  libpoppler118 libprotobuf-lite23 libpython3.9-minimal libpython3.9-stdlib
+  libsrt1.4-gnutls libstb0 libsvtav1enc0 libunicode-escape-perl
+  libvkd3d-shader1 libvkd3d1 libwebsockets16 libwireshark15 libwiretap12
+  libwsutil13 libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 libzxingcore1 llvm-11
+  llvm-11-dev llvm-11-linker-tools llvm-11-runtime llvm-11-tools nginx-common
+  nginx-core node-abab node-ansistyles node-asap node-asynckit node-big.js
+  node-combined-stream node-cssom node-cssstyle node-delayed-stream
+  node-domelementtype node-domhandler node-emojis-list node-entities
+  node-exit-hook node-form-data node-formidable node-jsdom node-loader-utils
+  node-parse5 node-psl node-tough-cookie node-uniq node-universalify
+  node-webidl-conversions node-whatwg-fetch openjdk-11-jdk
+  openjdk-11-jdk-headless perl-modules-5.34 python-pastedeploy-tpl
+  python3-dataclasses-json python3-limiter python3-mypy-extensions
+  python3-responses python3-speaklater python3-spyse python3-token-bucket
+  python3-toml python3-typing-inspect python3.9 python3.9-minimal ruby2.7
+  ruby2.7-dev ruby2.7-doc ruby3.0 ruby3.0-dev ruby3.0-doc sse3-support telnet
+  vkd3d-compiler
+Use 'sudo apt autoremove' to remove them.
+
+--------------------
+
+Traceback (most recent call last):
+  File "/usr/bin/pip3", line 5, in <module>
+    from pip._internal.cli.main import main
+  File "/usr/lib/python3/dist-packages/pip/_internal/cli/main.py", line 9, in <module>
+    from pip._internal.cli.autocompletion import autocomplete
+  File "/usr/lib/python3/dist-packages/pip/_internal/cli/autocompletion.py", line 10, in <module>
+    from pip._internal.cli.main_parser import create_main_parser
+  File "/usr/lib/python3/dist-packages/pip/_internal/cli/main_parser.py", line 9, in <module>
+    from pip._internal.build_env import get_runnable_pip
+  File "/usr/lib/python3/dist-packages/pip/_internal/build_env.py", line 19, in <module>
+    from pip._internal.cli.spinners import open_spinner
+  File "/usr/lib/python3/dist-packages/pip/_internal/cli/spinners.py", line 9, in <module>
+    from pip._internal.utils.logging import get_indentation
+  File "/usr/lib/python3/dist-packages/pip/_internal/utils/logging.py", line 13, in <module>
+    from pip._vendor.rich.console import (
+  File "/usr/lib/python3/dist-packages/pip/_vendor/rich/console.py", line 60, in <module>
+    from .pretty import Pretty, is_expandable
+  File "/usr/lib/python3/dist-packages/pip/_vendor/rich/pretty.py", line 31, in <module>
+    import attr as _attr_module
+  File "/usr/local/lib/python3.10/dist-packages/attr/__init__.py", line 5, in <module>
+    from . import converters, exceptions, filters, validators
+  File "/usr/local/lib/python3.10/dist-packages/attr/validators.py", line 200, in <module>
+    class _DeepIterable(object):
+  File "/usr/local/lib/python3.10/dist-packages/attr/_make.py", line 897, in wrap
+    builder = _ClassBuilder(
+  File "/usr/local/lib/python3.10/dist-packages/attr/_make.py", line 471, in __init__
+    attrs, base_attrs, base_map = _transform_attrs(
+  File "/usr/local/lib/python3.10/dist-packages/attr/_make.py", line 354, in _transform_attrs
+    own_attrs = [
+  File "/usr/local/lib/python3.10/dist-packages/attr/_make.py", line 354, in <listcomp>
+    own_attrs = [
+KeyboardInterrupt

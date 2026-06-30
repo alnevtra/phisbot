@@ -1,0 +1,1 @@
+autossh -M 0 -R ${1}:80:localhost:8080 serveo.net
